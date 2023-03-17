@@ -1,14 +1,4 @@
-@relation 'KDDTrain-weka.filters.unsupervised.attribute.Remove-R1-3,7-11,13-25,27-29,31-41'
-
-@attribute flag {OTH,REJ,RSTO,RSTOS0,RSTR,S0,S1,S2,S3,SF,SH}
-@attribute src_bytes numeric
-@attribute dst_bytes numeric
-@attribute logged_in {0,1}
-@attribute srv_serror_rate numeric
-@attribute diff_srv_rate numeric
-@attribute class {normal,anomaly}
-
-@data
+flag,src_bytes,dst_bytes,logged_in,srv_serror_rate,diff_srv_rate,class
 SF,491,0,0,0,0,normal
 SF,146,0,0,0,0.15,normal
 S0,0,0,0,1,0.07,anomaly
